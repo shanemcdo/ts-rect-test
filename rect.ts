@@ -1,10 +1,10 @@
-class Rect {
-	top: number;
+export class Rect {
 	left: number;
+	top: number;
 	width: number;
 	height: number;
 
-	constructor(top: number, left: number, width: number, height: number) {
+	constructor(left: number, top: number, width: number, height: number) {
 		this.top = top;
 		this.left = left;
 		this.width = width;
