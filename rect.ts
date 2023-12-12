@@ -5,8 +5,8 @@ export class Rect {
 	height: number;
 
 	constructor(left: number, top: number, width: number, height: number) {
-		this.top = top;
 		this.left = left;
+		this.top = top;
 		this.width = width;
 		this.height = height;
 	}
@@ -45,11 +45,11 @@ export class Rect {
 	}
 
 	get centerY(): number {
-		return this.top + this.width / 2
+		return this.top + this.height / 2
 	}
 
 	set centerY(center: number) {
-		this.top = center - this.width / 2;
+		this.top = center - this.height / 2;
 	}
 
 	get topLeft(): [number, number] {
