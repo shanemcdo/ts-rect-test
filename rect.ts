@@ -1,7 +1,7 @@
 class Rect {
 	top: number;
 	left: number;
-	width: number;;
+	width: number;
 	height: number;
 
 	constructor(top: number, left: number, width: number, height: number) {
